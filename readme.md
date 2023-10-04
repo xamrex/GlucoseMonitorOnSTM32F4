@@ -42,7 +42,7 @@ More information about nightscout server you can find [here](https://nightscout.
 
 ## Screenshots
 
-![App Screenshot](https://github.com/xamrex/GlucoseMonitorOnSTM32F4/blob/master/0.Screens/1.jpg)
+![App Screenshot](https://github.com/xamrex/GlucoseMonitorOnSTM32F4/blob/main/0.Screens/1.jpg)
 
 
 ## Contributing
