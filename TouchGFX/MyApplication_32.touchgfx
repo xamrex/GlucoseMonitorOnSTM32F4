@@ -1,0 +1,490 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 4800,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": -3,
+            "Width": 327,
+            "Height": 245,
+            "LockPosition": true,
+            "RelativeFilename": "bg.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textDelta30and60",
+            "X": 1,
+            "Y": 213,
+            "Width": 128,
+            "Height": 12,
+            "LockPosition": true,
+            "TextId": "__SingleUse_I6EP",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 41,
+              "Green": 130,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_BGBQ",
+              "UseBuffer": true,
+              "BufferSize": 6
+            },
+            "Wildcard2": {
+              "TextId": "__SingleUse_XNY0",
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textDelta5and10",
+            "X": 2,
+            "Y": 201,
+            "Width": 128,
+            "Height": 12,
+            "LockPosition": true,
+            "TextId": "__SingleUse_Z096",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 41,
+              "Green": 130,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_6098",
+              "UseBuffer": true,
+              "BufferSize": 6
+            },
+            "Wildcard2": {
+              "TextId": "__SingleUse_P37R",
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textLastBGValue",
+            "X": 4,
+            "Y": 186,
+            "Width": 166,
+            "Height": 15,
+            "LockPosition": true,
+            "TextId": "__SingleUse_5077",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 245,
+              "Green": 20,
+              "Blue": 20
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_L9L1",
+              "UseBuffer": true,
+              "BufferSize": 4
+            },
+            "Wildcard2": {
+              "TextId": "__SingleUse_4H00",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "boxWithBorder1",
+            "Width": 320,
+            "Height": 185,
+            "LockPosition": true,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderSize": 5
+          },
+          {
+            "Type": "StaticGraph",
+            "Name": "graph1",
+            "X": 7,
+            "Y": 9,
+            "Width": 306,
+            "Height": 183,
+            "LockPosition": true,
+            "DataSeed": 591504896,
+            "NumberOfValues": 240,
+            "MinX": -180.0,
+            "PrecisionX": "1",
+            "MaxY": 250.0,
+            "MinY": 50.0,
+            "PrecisionY": "1",
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 23,
+            "LabelSizeLeft": 20,
+            "PaddingTop": 5,
+            "PaddingBottom": 5,
+            "PaddingLeft": 5,
+            "PaddingRight": 10,
+            "GraphDrawers": [
+              {
+                "Type": "DotsDrawer",
+                "DotWidth": 5,
+                "FileNameImage": "",
+                "Color": {
+                  "Green": 76,
+                  "Blue": 255
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": ""
+              }
+            ],
+            "XAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "Interval": 30.0,
+              "LineWidth": 2
+            },
+            "MinorXAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "Interval": 10.0,
+              "LineWidth": 1
+            },
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "Interval": 50.0,
+              "LineWidth": 2
+            },
+            "MinorYAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "Interval": 10.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 30.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "TextId": "__SingleUse_YM6G",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 50.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "TextId": "__SingleUse_SG0A",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "StaticGraph",
+            "Name": "graph1Min",
+            "X": 7,
+            "Y": 9,
+            "Width": 306,
+            "Height": 183,
+            "LockPosition": true,
+            "DataSeed": -162302643,
+            "NumberOfValues": 2,
+            "MinX": -240.0,
+            "PrecisionX": "1",
+            "MaxY": 250.0,
+            "MinY": 50.0,
+            "PrecisionY": "1",
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 23,
+            "LabelSizeLeft": 20,
+            "PaddingTop": 5,
+            "PaddingBottom": 5,
+            "PaddingLeft": 5,
+            "PaddingRight": 10,
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 255
+                }
+              }
+            ]
+          },
+          {
+            "Type": "StaticGraph",
+            "Name": "graph1Max",
+            "X": 7,
+            "Y": 9,
+            "Width": 306,
+            "Height": 183,
+            "LockPosition": true,
+            "DataSeed": -162302643,
+            "NumberOfValues": 2,
+            "MinX": -240.0,
+            "PrecisionX": "1",
+            "MaxY": 250.0,
+            "MinY": 50.0,
+            "PrecisionY": "1",
+            "XAxisScale": 1.0,
+            "LabelSizeBottom": 23,
+            "LabelSizeLeft": 20,
+            "PaddingTop": 5,
+            "PaddingBottom": 5,
+            "PaddingLeft": 5,
+            "PaddingRight": 10,
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 255
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textStep",
+            "X": 250,
+            "Y": 221,
+            "Width": 46,
+            "Height": 15,
+            "LockPosition": true,
+            "TextId": "__SingleUse_C6LL",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_3HBK",
+              "UseBuffer": true,
+              "BufferSize": 2
+            }
+          },
+          {
+            "Type": "Button",
+            "Name": "buttonZoomIn",
+            "X": 244,
+            "Y": 184,
+            "Width": 30,
+            "Height": 30,
+            "LockPosition": true,
+            "Pressed": "Gtk-zoom-in2.png",
+            "Released": "Gtk-zoom-in2.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "buttonZoomOut",
+            "X": 284,
+            "Y": 184,
+            "Width": 30,
+            "Height": 30,
+            "LockPosition": true,
+            "Pressed": "Gtk-zoom-out2.png",
+            "Released": "Gtk-zoom-out2.png"
+          },
+          {
+            "Type": "CircleProgress",
+            "Name": "circleProgress1",
+            "X": 298,
+            "Y": 218,
+            "Width": 20,
+            "Height": 20,
+            "LockPosition": true,
+            "Color": {
+              "Green": 240,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 9.0,
+            "LineWidth": 0.6,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "FileNameBackground": "small1.png",
+            "ProgressRangeMax": 59
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textBGFade",
+            "Width": 313,
+            "Height": 105,
+            "LockPosition": true,
+            "TextId": "__SingleUse_MC1C",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 152,
+              "Green": 36,
+              "Blue": 224
+            },
+            "Alpha": 0,
+            "Wildcard1": {
+              "TextId": "__SingleUse_R0HF",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textt123",
+            "X": 2,
+            "Y": 226,
+            "Width": 167,
+            "Height": 12,
+            "LockPosition": true,
+            "TextId": "__SingleUse_5CI4",
+            "TextRotation": "0",
+            "Color": {
+              "Green": 74,
+              "Blue": 178
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_DOJO",
+              "UseBuffer": true,
+              "BufferSize": 25
+            },
+            "Wildcard2": {
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "InterractionZoomIn",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonZoomIn"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "functionZoomIn"
+            }
+          },
+          {
+            "InteractionName": "InterractionZoomOut",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonZoomOut"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "functionZoomOut"
+            }
+          },
+          {
+            "InteractionName": "FADENeededInteractionForLibrary",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 1
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Linear",
+              "EasingOption": "InOut",
+              "Duration": 1234,
+              "AnimationDelay": 10,
+              "ActionComponent": "textBGFade"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication_32",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_D01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "Vector"
+    ]
+  },
+  "Version": "4.22.0",
+  "CreatedBy": "4.22.0"
+}
